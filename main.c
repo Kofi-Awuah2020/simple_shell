@@ -53,6 +53,12 @@ void process_input(char *input, int *cmdCount, char *argv)
 
 	if (commands != NULL)
 	{
+		if (strcmp(commands[0], "exit") == 0)
+		{
+			free_cmds(commands);
+			free(input);
+			exit(EXIT_SUCCESS);
+		}
 		execute_command(commands);
 		free_cmds(commands);
 	}
