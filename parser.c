@@ -3,8 +3,8 @@
 /**
  * parse_input - Parse the input line into commands.
  *
- * @lineptr: The input line.
  * @input: Input string to be parsed.
+ * @argv: argument vector.
  * Return: An array of strings representing the parsed command and arguments,
  * or NULL if an error occurs.
  */

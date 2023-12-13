@@ -8,6 +8,7 @@
 void get_path(char **pathname)
 {
 	char *token = NULL, *path = NULL, *path_dir = NULL, *tempStr = NULL;
+
 	if (*pathname == NULL)
 		return;
 	path_dir = getenv("PATH");

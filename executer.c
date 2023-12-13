@@ -2,8 +2,6 @@
 /**
  * execute_command - Executes a command with its arguments in a child process.
  * @commands: An array of strings representing the command and its arguments.
- * @argv: An array of strings containing the command-line arguments.
- * @cmdCount: The count of the executed commands.
  *
  * Return: No return value.
  */
