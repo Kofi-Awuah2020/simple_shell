@@ -17,5 +17,6 @@ char **parse_input(char *input, char *argv);
 void execute_command(char **commands);
 char *read_input(void);
 void process_input(char *input, int *cmdCount, char *argv);
+void print_env(void);
 
 #endif
